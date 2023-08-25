@@ -59,7 +59,13 @@ Added on onclick event so that when the user selects a particular game they can 
 
 imported all the files under the component folder as well as the App.css then inside the function and list them inside to difine them.  
 
+# problems run into
 
+A lot of hours sitting and researching as well as catching simple programing errors and solving them
+
+# unsolved problems 
+
+To find a better api where there are more leagues and better user friendly front end programing where it makes it easier for the user find the specific game or league he/she want to catch a highlight off
 
 
 
