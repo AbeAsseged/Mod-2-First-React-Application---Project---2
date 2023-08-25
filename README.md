@@ -2,16 +2,32 @@
 
 https://rococo-hotteok-ff4746.netlify.app/
 
+
+# Soccer Game Score results and Highlight Video App
+
+The user would be able to check game score results and be able to see the highlight videos of different soccer games across different soccer leagues around the world.
+
+# Reason behind the project
+
+I like all sports, soccer being one of the sports i follow. hopefully the website will help the user keep up with some of his/her soccer teams or soccer leagues. 
+
+
+
+# tech used
+
+CSS, HTML, JavaScript and React
+
+Sports Api
+
+
 # First
 
 installed axios 
 
-created a component foldr under the src folder 
+created a component folder under the src folder 
+
 Then created three files named Navbar.js,Footer.js and Content.js in side the components folder
 
-inside Navbar 
-inside Footer
-inside content 
 
 # App.css
 
@@ -53,7 +69,7 @@ All under a div to place all the video content
 
 Defined state of data and setdata to get info from the api under const state 
 
-After that used useEffect hook to get the data from the api using axios get method, pasted the api under a url and .then to get the response and console.log so that i can check on inspect the url api is working 
+After that used useEffect hook to get the data from the api using axios get method, passed the api under a url and used .then to get the response and console.log so that i can check on inspect the url api is working 
 as well as .catch to catch an error  and setData to get the response from the data from the api
 in our return made a .map to catch the arr's by making a div with in a div to hold the name of the game and the image of the game with eatch one having respective class names of itemImage and itemHeading and key which i choose to be the title since it has a good chance of being not replected (distinct) and item.thumbnail under the itemIage div to catch the images of the match which I got both from the inspecting my local host wesite
 
@@ -61,15 +77,19 @@ Added on onclick event so that when the user selects a particular game they can 
 
 # App.js
 
-imported all the files under the component folder as well as the App.css then inside the function and list them inside to difine them.  
+imported all the files under the component folder as well as the App.css then inside the function and list them inside to define them.  
 
 # problems run into
 
-A lot of hours sitting and researching as well as catching simple programing errors and solving them
+A lot of hours sitting and researching as well as catching simple programing errors and solving them, as well as finding an API and inspecting it to see how to use it. 
 
-# unsolved problems 
+# unsolved problems / future updates 
 
-To find a better api where there are more leagues and better user friendly front end programing where it makes it easier for the user find the specific game or league he/she want to catch a highlight off
+To find a better/additional api where there are more leagues and better user friendly front end programing where it makes it easier for the user find the specific game or league he/she want to catch a highlight off
+
+# Fav Code
+
+I really enjoyed reaserching and figuring things out, but Enjoyed doing the css b/c once i got the api on the page it was all over the place and out of size, also enjoyed using the useEffect b/c w/ out that it nothing would of been possible.           
 
 
 
