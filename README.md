@@ -1,3 +1,53 @@
+installed axios 
+
+created a component foldr under the src folder 
+then created three files named Navbar.js,Footer.js and Content.js 
+
+inside Navbar 
+inside Footer
+inside content 
+
+# App.css
+used css code to center the app and make it only take 10 % of the total page, as well as the content page taking 80% and the footer taking the other 10%, also used css to choose colors and alignment on the page
+adjusted the img to fit the content part of the website as well as creating a border color and border radius to differentiate b/t each soccer games 
+also used grid-template-colmns and justify-tiems to horozontally appear in rows of 4 and center them as wel
+in addtion .tiemDiv to make space b/t the videos both top&bottom and left to right, moreover added a hover to make it easier for the user to know which video to select
+
+
+
+# Navbar.js
+used rafce and filled out the function 
+imported App.css
+coped a soccer emoji of the web pasted it next to the title on navbar and gave it a class name, all under a div
+
+# Footer.js
+used rafce agian and filled out the function 
+imported App.css
+used a paragraph parameter to a footer title to and a &copy; for a copy right sign all under a div
+
+
+# Content.js
+used rafce agian and filled out the function 
+imported App.css
+imported useState and useEffect react hooks 
+imported axios as well 
+all under a div to place all the video content 
+difine state of data and setdata to get info from the api under const state 
+then useEffect hook to get the data from the api using axios get method, pasted the api under a url and 
+.then to get the response and console.log so that i can check on inspect the url api is working 
+as well as .catch to catch an error  and setData to get the response from the data from the api
+in our return made a .map to catch the arr's by making a div with in a div to hold the name of the game and the image of the game with eatch one having respective class names of itemImage and itemHeading and key which i choose to be the title since it has a good chance of being not replected (distinct) and item.thumbnail under the itemIage div to catch the images of the match which I got both from the inspecting my local host wesite
+Added on onclick event so that when the user selects a particular game they can go stright to the video highlight fireing an event item.matchviewUrl (which i found in the inspection part under my object list opening) a new window to watch the videos 
+
+# App.js
+
+imported all the files under the component folder as well as the App.css then inside the function and list them inside to difine them.  
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,26 +95,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
